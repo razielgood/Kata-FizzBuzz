@@ -1,7 +1,0 @@
-<project name="Kata-Fizzbuzz" default="build">
-  <target name="build">
-    <echo message="Building JavaKata-Fizzbuzz" />
-    <javac srcdir="src" />
-    <jar destfile="Kata-Fizzbuzz" />
-  </target>
-</project>
