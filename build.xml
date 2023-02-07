@@ -1,0 +1,12 @@
+<project name="JavaKata-Fizzbuzz" default="build">
+  <target name="build">
+
+    <echo message="Building JavaKata-Fizzbuzz" />
+
+    <javac srcdir="src" destdir="bin"/>
+
+    <jar destfile="Kata-Fizzbuzz.jav" basedir="bin"/>
+
+  </target>
+
+</project>
