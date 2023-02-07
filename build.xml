@@ -1,7 +1,7 @@
-<project name="MyJavaProject" default="build">
+<project name="Kata-Fizzbuzz" default="build">
   <target name="build">
-    <echo message="Building Java project..." />
+    <echo message="Building JavaKata-Fizzbuzz" />
     <javac srcdir="src" destdir="bin"/>
-    <jar destfile="MyJavaProject.jar" basedir="bin"/>
+    <jar destfile="Kata-Fizzbuzz.jar" basedir="bin"/>
   </target>
 </project>
