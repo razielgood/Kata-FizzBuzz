@@ -2,6 +2,6 @@
   <target name="build">
     <echo message="Building JavaKata-Fizzbuzz" />
     <javac srcdir="src" destdir="bin"/>
-    <jar destfile="Kata-Fizzbuzz.jar" basedir="bin"/>
+    <jar destfile="Kata-Fizzbuzz.class" basedir="bin"/>
   </target>
 </project>
