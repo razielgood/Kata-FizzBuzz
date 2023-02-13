@@ -1,0 +1,11 @@
+# archivos de clase Java
+* .clase
+
+# Archivos Intelli J
+.idea /
+* .iml
+
+# experto
+pom.propiedades
+* .jar
+objetivo / *
