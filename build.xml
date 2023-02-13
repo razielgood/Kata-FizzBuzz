@@ -1,6 +1,0 @@
-<target name="build">
-  <mkdir dir="bin"/>
-  <echo message="Building JavaKata-Fizzbuzz" />
-  <javac srcdir="src" destdir="bin"/>
-  <jar destfile="Kata-Fizzbuzz.jar" basedir="bin"/>
-</target>
